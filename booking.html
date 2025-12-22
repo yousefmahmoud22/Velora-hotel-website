@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Book your stay at Velora Hotel - Choose from our luxurious rooms and enjoy world-class amenities.">
+  <meta name="keywords" content="Velora Hotel, Booking, Rooms, Luxury, Amenities">
+  <meta name="author" content="Yousef Anas , Yousef Mahmoud Saleh">
+  <title>Booking | Velora Hotel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="booking-page">
+
+  <!-- HEADER -->
+
+<header class="header5">
+  <nav class="navbar5">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="services.html">Services</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="booking.html">Booking</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+   <h1 class="logo">Velora Hotel</h1>
+</header>
+
+<main class="booking">
+
+  <h2>Choose Your Room</h2>
+
+  <div class="booking-container">
+
+    <!-- ROOM 1 -->
+    <div class="room-card">
+      <img src="images/room1.jpg" alt="Deluxe Room">
+
+      <div class="room-content">
+        <h3>Deluxe Room</h3>
+        <p>Elegant room with city view, king-size bed, and premium amenities.</p>
+
+        <div class="price">
+          <span class="old-price"><del>$300</del></span>
+          <span class="new-price">$250 / night</span>
+        </div>
+
+        <a href="#booking-form" class="book-btn">Book Now</a>
+      </div>
+    </div>
+
+    <!-- ROOM 2 -->
+    <div class="room-card">
+      <img src="images/room2.jpg" alt="Executive Suite">
+
+      <div class="room-content">
+        <h3>Executive Suite</h3>
+        <p>Spacious suite with Velora furniture, lounge area, and balcony.</p>
+
+        <div class="price">
+          <span class="old-price"><del>$480</del></span>
+          <span class="new-price">$360 / night</span>
+        </div>
+
+        <a href="#booking-form" class="book-btn">Book Now</a>
+      </div>
+    </div>
+
+    <!-- ROOM 3 -->
+    <div class="room-card">
+      <img src="images/room3.webp" alt="Family Room">
+
+      <div class="room-content">
+        <h3>Family Room</h3>
+        <p>Perfect for families with two beds, large space, and comfort.</p>
+
+        <div class="price">
+          <span class="old-price"><del>$450</del></span>
+          <span class="new-price">$320 / night</span>
+        </div>
+
+        <a href="#booking-form" class="book-btn">Book Now</a>
+      </div>
+    </div>
+ <!-- ROOM 4 -->
+    <div class="room-card">
+      <img src="images/room4.webp" alt="Deluxe Room">
+
+      <div class="room-content">
+        <h3>Deluxe Room</h3>
+        <p>Elegant room with city view, king-size bed, and premium amenities.</p>
+
+        <div class="price">
+          <span class="old-price"><del>$520</del></span>
+          <span class="new-price">$450 / night</span>
+        </div>
+
+        <a href="#booking-form" class="book-btn">Book Now</a>
+      </div>
+    </div>
+
+ <!-- ROOM 5 -->
+    <div class="room-card">
+      <img src="images/room5.jpg" alt="Deluxe Room">
+
+      <div class="room-content">
+        <h3>Royal Suite</h3>
+        <p>Elegant room with city view, king-size bed, and premium amenities.</p>
+
+        <div class="price">
+          <span class="old-price"><del>$720</del></span>
+          <span class="new-price">$570/ night</span>
+        </div>
+
+        <a href="#booking-form" class="book-btn">Book Now</a>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Booking Form -->
+  <section id="booking-form" class="form-box">
+    <h2>Book Your Stay</h2>
+
+<form class="form-grid">
+
+  <div class="form-group">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" placeholder="Yousef Mahmoud Saleh" required>
+  </div>
+
+  <div class="form-group">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" placeholder="cgvhmvnhg@gmail.com" required>
+  </div>
+
+  <div class="form-group">
+    <label for="checkin">Check-in Date</label>
+    <input type="date" id="checkin" required>
+  </div>
+
+  <div class="form-group">
+    <label for="checkout">Check-out Date</label>
+    <input type="date" id="checkout" required>
+  </div>
+
+  <div class="form-group full">
+    <label for="room">Room Type</label>
+    <select id="room" required>
+      <option value="">Select Room Type</option>
+      <option>Deluxe Room</option>
+      <option>Executive Suite</option>
+      <option>Family Room</option>
+      <option>Royal Suite</option>
+    </select>
+  </div>
+
+  <button type="submit" class="submit-btn">Confirm Booking</button>
+
+</form>
+</section>
+</main>
+
+</body>
+</html>
